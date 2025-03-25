@@ -43,7 +43,7 @@ const Navigation = () => {
           href="#hero"
           className="text-xl md:text-2xl font-serif font-semibold text-brand-600 flex items-center"
         >
-          Débora Terapêuta Corporal
+          Débora Lira 💆🏻‍♀️
         </a>
 
         <nav className="hidden md:block">
