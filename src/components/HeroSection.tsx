@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="aspect-square max-w-md mx-auto overflow-hidden rounded-3xl shadow-2xl relative z-10">
             <div className="absolute inset-0 bg-gradient-to-t from-brand-500/20 to-transparent z-10"></div>
             <img
-              src="public/fotoinicial.jpg"
+              src="/fotoinicial.jpg"
               alt="Terapeuta corporal realizando massagem"
               className="w-full h-full object-cover"
             />
