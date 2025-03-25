@@ -11,7 +11,7 @@ const AboutSection = () => {
           <div className="aspect-[4/5] max-w-md mx-auto overflow-hidden rounded-3xl shadow-xl relative z-10">
             <div className="absolute inset-0 bg-gradient-to-t from-brand-500/20 to-transparent z-10"></div>
             <img
-              src="public/deboralira.jpg"
+              src="/deboralira.jpg"
               alt="Débora Terapeuta Corporal"
               className="w-full h-full object-cover"
             />
