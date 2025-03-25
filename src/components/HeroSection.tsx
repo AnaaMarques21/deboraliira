@@ -6,7 +6,7 @@ const HeroSection = () => {
       id="hero"
       className="min-h-screen flex flex-col justify-center pt-20 pb-8 md:pb-20 bg-gradient-to-b from-soft-green/50 to-white relative overflow-hidden"
     >
-      <div className="absolute w-72 h-72 rounded-full bg-brand-100 filter blur-3xl opacity-50 -top-10 -left-10 animate-pulse-subtle"></div>
+     <div className="absolute w-72 h-72 rounded-full bg-brand-100 filter blur-3xl opacity-50 -top-10 -left-10 animate-pulse-subtle z-[-1]"></div>
       <div
         className="absolute w-96 h-96 rounded-full bg-soft-blue filter blur-3xl opacity-30 -bottom-20 -right-20 animate-pulse-subtle"
         style={{ animationDelay: "1s" }}
@@ -14,7 +14,7 @@ const HeroSection = () => {
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 animate-fade-in">
-          <div className="chip">Massoterapia Profissional</div>
+          <div className="chip">Terapêuta Profissional</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight">
             <span className="text-brand-600">
               Recupere sua energia e bem-estar
